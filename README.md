@@ -5,9 +5,8 @@ Projects in CircuitPython on the [Trinket M0](https://www.adafruit.com/product/3
 Because CircuitPython works by running the `main.py` file on the chip, files in this repository have their filename repeated as the first line. This simplifies the process of figuring out what was running on a chip from an old/abandoned/temporary project.
 
 
-## Boards
+## Board info
 
-### Trinket M0
 https://learn.adafruit.com/adafruit-trinket-m0-circuitpython-arduino/pinouts
 
 
@@ -20,16 +19,16 @@ https://learn.adafruit.com/adafruit-trinket-m0-circuitpython-arduino/pinouts
 # | Rst   3V |
 ```
 
-Bat: voltage input, regulated down to 3V
-USB: connected directly to USB port (which is what [usb] refers to)
-3V: output from voltage regulator
-GND: ground
-Rst: reset
-0: GPIO, analog input, PWM output, I2C (SDA)
-1: GPIO, analog input, DAC output, capacitive touch
-2: GPIO, analog input, PWM output, I2C (SCL), SPI (MISO)
-3: GPIO, analog input, PWM output, SPI (SCK), UART (RX), capacitive touch
-4: GPIO, analog input, PWM output, UART (TX), SPI (MOSI), capacitive touch
+- Bat: voltage input, regulated down to 3V
+- USB: connected directly to USB port (which is what [usb] refers to)
+- 3V: output from voltage regulator
+- GND: ground
+- Rst: reset
+- 0: GPIO, analog input, PWM output, I2C (SDA)
+- 1: GPIO, analog input, DAC output, capacitive touch
+- 2: GPIO, analog input, PWM output, I2C (SCL), SPI (MISO)
+- 3: GPIO, analog input, PWM output, SPI (SCK), UART (RX), capacitive touch
+- 4: GPIO, analog input, PWM output, UART (TX), SPI (MOSI), capacitive touch
 
 
 ## Why
