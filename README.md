@@ -4,6 +4,9 @@ Projects in CircuitPython on the [Trinket M0](https://www.adafruit.com/product/3
 ## How to use
 Because CircuitPython works by running the `main.py` file on the chip, files in this repository have their filename repeated as the first line. This simplifies the process of figuring out what was running on a chip from an old/abandoned/temporary project.
 
+View serial output on MacOS: `screen /dev/tty.usbmodem14101` (the number will change)
+
+Escape `screen`: `ctrl-a` `ctrl-d`
 
 ## Board info
 
