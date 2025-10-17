@@ -9,7 +9,6 @@
 #                 -| 3      2 |- neopixel data output
 #                 -| Rst   3V |-
 
-## library imports
 import board
 import neopixel
 import time
